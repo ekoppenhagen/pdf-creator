@@ -1,0 +1,161 @@
+# https://detekt.dev/docs/rules/comments/
+comments:
+    CommentOverPrivateFunction:
+        active: true
+    CommentOverPrivateProperty:
+        active: true
+    DeprecatedBlockTag:
+        active: true
+    KDocReferencesNonPublicProperty:
+        active: true
+    OutdatedDocumentation:
+        active: true
+    UndocumentedPublicClass:
+        active: true
+    UndocumentedPublicFunction:
+        active: true
+    UndocumentedPublicProperty:
+        active: true
+# https://detekt.dev/docs/rules/complexity/
+complexity:
+    CognitiveComplexMethod:
+        active: true
+        threshold: 11
+    CyclomaticComplexMethod:
+        threshold: 11
+    LabeledExpression:
+        active: true
+    LargeClass:
+        threshold: 301
+    LongMethod:
+        threshold: 31
+    LongParameterList:
+        functionThreshold: 4
+        constructorThreshold: 6
+        ignoreDefaultParameters: true
+    NamedArguments:
+        active: true
+    NestedScopeFunctions:
+        active: true
+# https://detekt.dev/docs/rules/exceptions
+exceptions:
+    NotImplementedDeclaration:
+        active: true
+    ObjectExtendsThrowable:
+        active: true
+# https://detekt.dev/docs/rules/formatting/
+formatting:
+    ArgumentListWrapping:
+        maxLineLength: 160
+    ContextReceiverMapping:
+        maxLineLength: 160
+    MaximumLineLength:
+        maxLineLength: 160
+    ParameterListWrapping:
+        maxLineLength: 160
+    ParameterWrapping:
+        maxLineLength: 160
+    PropertyWrapping:
+        maxLineLength: 160
+    Wrapping:
+        maxLineLength: 160
+# https://detekt.dev/docs/rules/naming/
+naming:
+    BooleanPropertyNaming:
+        active: true
+    LambdaParameterNaming:
+        active: true
+        parameterPattern: '[a-z]+[A-Za-z0-9]{2,}|_'
+    NonBooleanPropertyPrefixedWithIs:
+        active: true
+# https://detekt.dev/docs/rules/performance/
+performance:
+    CouldBeSequence:
+        active: true
+    UnnecessaryPartOfBinaryExpression:
+        active: true
+# https://detekt.dev/docs/rules/potential-bugs/
+potential-bugs:
+    CastToNullableType:
+        active: true
+    Deprecation:
+        active: true
+    DontDowncastCollectionTypes:
+        active: true
+    MissingPackageDeclaration:
+        active: true
+    PropertyUsedBeforeDeclaration:
+        active: true
+    UnnecessaryNotNullCheck:
+        active: true
+    UnnecessaryNotNullOperator:
+        active: true
+# https://detekt.dev/docs/rules/style/
+style:
+    AlsoCouldBeApply:
+        active: true
+    CanBeNonNullable:
+        active: true
+    CascadingCallWrapping:
+        active: true
+    ClassOrdering:
+        active: true
+    CollapsibleIfStatements:
+        active: true
+    DataClassContainsFunctions:
+        active: true
+    DataClassShouldBeImmutable:
+        active: true
+    DestructuringDeclarationWithTooManyEntries:
+        active: true
+    DoubleNegativeLambda:
+        active: true
+    EqualsOnSignatureLine:
+        active: true
+    ExplicitCollectionElementAccessMethod:
+        active: true
+    ExpressionBodySyntax:
+        active: true
+        includeLineWrapping: true
+    ForbiddenComment:
+        active: true
+    MaxLineLength:
+        maxLineLength: 160
+    MultilineRawStringIndentation:
+        active: true
+    NoTabs:
+        active: true
+    NullableBooleanCheck:
+        active: true
+    OptionalUnit:
+        active: true
+    RedundantExplicitType:
+        active: true
+    RedundantVisibilityModifierRule:
+        active: true
+    SpacingBetweenPackageAndImports:
+        active: true
+    StringShouldBeRawString:
+        active: true
+    TrailingWhitespace:
+        active: true
+    UnderscoresInNumericLiterals:
+        active: true
+    UnnecessaryBackticks:
+        active: true
+    UnnecessaryBracesAroundTrailingLambda:
+        active: true
+    UnnecessaryLet:
+        active: true
+    UntilInsteadOfRangeTo:
+        active: true
+    UnusedImports:
+        active: true
+    UseDataClass:
+        active: true
+    UseEmptyCounterpart:
+        active: true
+    UseIfEmptyOrIfBlank:
+        active: true
+    UseLet:
+        active: true
